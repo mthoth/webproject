@@ -1,0 +1,395 @@
+#Header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    margin: -15px;
+    z-index: 1;
+}
+
+.logo {
+    width: 125px;
+    height: 67;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+div#float {
+    float: right;
+    position: relative;
+    bottom: 45px;
+    padding-right: 200px;
+}
+
+.menubt {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+
+#shopbt {
+    color: green;
+}
+
+.menubt:hover {
+    border-bottom: 3px solid;
+    border-bottom-width: 50%;
+    animation: hover;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+	 -webkit-animation: hover;
+	 -webkit-animation-duration: 0.2s;
+	 -webkit-animation-fill-mode: forwards;
+}
+@keyframes hover {
+    from {color: black; border-bottom: 0px solid;}
+    to {color: green; border-bottom: 4px solid;}
+}
+
+@-webkit-keyframes hover {
+   from {color: black; border-bottom: 0px solid;}
+    to {color: green; border-bottom: 4px solid;}
+}
+
+body {
+    background-image: linear-gradient(rgba(27,61,35,0.6),rgba(27,61,35,0.6)),url("../img/background-image3.jpg");
+    background-size: cover;
+}
+
+.relative {
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    background-color: rgba(48,92,58,0.9);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#titleimage {
+	 margin:auto;
+	 display: block;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#parag1 {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 20px;
+    font-family:sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-top: 300px;
+    color: white;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: #c2ffa3;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-left: 220px;
+    padding-right: 220px;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h5 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #c2ffa3;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.absolute#tealogo {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 270px;
+    height: 400px;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.absolute#tealogo2 {
+    position: absolute;
+    top: 550px;
+    right: 0px;
+    width: 250px;
+    height: 400px;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#parag2 {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 20px;
+    font-family:sans-serif;
+    color: white;
+}
+
+.profile-image {
+    width: 630px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 625px;
+	 margin-bottom:25px;
+    margin-right: 70px;
+}
+
+.profile {
+    background-color: rgba(27,61,35,0.6);
+    width: 350px;
+    margin-left: 200px;
+    padding-top: 3px;
+    padding-bottom: 40px;
+    margin-top: -430px;
+}
+
+h3#quote {
+    text-align: left;
+    color:white;
+    font-family:Courgette, cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#name {
+    text-align: left;
+    font-family: sans-serif;
+    color: #c2ffa3;
+    margin-left: 60px;
+}
+
+#parag3 {
+    font-size: 20px;
+    font-family:sans-serif;
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.profile-image2{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 200px;
+}
+
+#parag4 {
+    font-size: 20px;
+    font-family:sans-serif;
+    color: white;	
+	 width:300px;
+}
+.profile2
+{
+	 background-color: rgba(27,61,35,0.6);
+	 margin-left: 850px;
+    margin-top: -390px;
+	 padding:30px;
+	 padding-left:50px;
+	 padding-right:50px;
+	 width:300px;
+}
+#end
+{
+	background-color:rgb(27,61,35);
+	margin:-20px;
+	padding:50px;
+
+}
+#innerend
+{
+	border-bottom:3px solid white;
+	padding-bottom: 10px;
+}
+#icons
+{
+	float:right;
+	position:relative;
+	top:50px;
+	right:200px;
+}
+#endlogo
+{
+	position:relative;
+}
+span
+{
+
+	position:relative;
+	bottom:20px;
+	left:20px;
+  font-family:sans-serif;
+  color:white;
+}
+.icon
+{
+	padding:5px;
+	width:30px;
+	height:30px;
+}
+
+.button {
+  border-radius: 4px;
+  background-color:#e68f39;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#alwayson
+{
+	position:fixed;
+	right:50px;
+	bottom:50px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 20px;
+	width:50px;
+	height:50px;
+	border: none;
+	cursor: pointer;
+	animation: fadeIn ease 4s;
+	-webkit-animation: fadeIn ease 2s;
+	display:none;
+}

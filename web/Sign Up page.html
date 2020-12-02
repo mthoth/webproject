@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset= "UTF-8">
+
+    <title>Sign Up</title>
+
+    <link href="css/signup.css" type="text/css" rel="stylesheet" media="all">
+	  <link rel="icon" href="img/logo.jpg"> <!--This logo will appear in the tab beside the title-->
+	 <script src="javascript/signup.js"></script>
+	
+
+</head>
+
+<body>
+
+    <div id="Header">
+	<div> 
+	<a href="index.html">
+		<img src="img/ahmadtea-logo.png" alt="logo" class="logo">
+	</a>
+</div>
+<div id="float">
+	<a href="WhoWeAre.html" class="menubt">
+		WHO WE ARE
+	</a>
+	<a href="ContactUs.html" class="menubt">
+		CONTACT US
+	</a>
+	<a href="" class="menubt" id="shopbt">
+		SHOP
+	</a>
+	<a href="#" class="menubt" style="color:#e68f39;">
+		SIGNUP
+	</a>
+</div>
+</div>
+<div id="start">
+	<h1>Signup for More!</h1>
+</div>
+    
+    
+<form action=" " method="GET">
+    
+    <fieldset >
+        <div class="div2">
+     <table>
+    
+
+ 
+    <tr>
+        
+        <td>
+            <label class="custom">
+                 <input id="firstName" name="firstName"  maxlength="10" required><span class="placeholder">First Name: </span> 
+        </label>
+        </td>
+  		<td>
+            <label class="custom">
+                <input id="Lname" name="Lname"  maxlength="10" required><span class="placeholder">Last Name: </span> 
+            </label>
+
+        </td>
+
+    </tr>
+    <tr>
+        
+        
+    </tr>
+   
+    <tr  >
+        <td colspan="2">
+            <label class="custom" >
+                <input id="email" name="email" type="text"  maxlength="25" required><span class="placeholder">Email: </span>
+            </label>
+        </td>
+      
+    </tr>
+   
+    <tr >
+        <td colspan="2">
+           <label class="custom" >
+            <input type="password" id="psswrd" name="psswrd"  maxlength="14" required><span class="placeholder">Password:</span>
+           </label>
+        </td>
+        
+    </tr>
+   
+
+    <tr  class="top">
+        <td colspan="2">
+            <label class="custom">
+                <input type="password" name="cnfrmpass"  id="cnfrmpass"   maxlength="14" required><span class="placeholder">Confirm Password: </span>		  
+					 
+            </label>
+        </td>  
+    </tr>
+	 <tr>
+	 
+	 </tr>
+
+    
+</table>
+<p id="message"></p>
+<div class="div1">
+		  <input id="submit" type="submit" class="button" value="Submit "onclick="ConfrimPassword()">
+        
+    </div>
+
+    </fieldset>
+
+</form>
+</div>
+
+
+
+
+</body>
+
+</html>
+
